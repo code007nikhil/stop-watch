@@ -68,3 +68,10 @@ function onstart(){
         mili = 0;
     }
 }
+
+
+var container = document.querySelector(".container");
+
+if(window.innerWidth < 600){
+    container.removeAttribute("data-tilt");
+}
